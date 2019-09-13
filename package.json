@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Blank DB plugin for the Honey Framework",
   "license": "Apache-2.0",
+  "author": "Bitfinex",
   "contributors": [
     "Cris Mihalache <me@f3rno.com>"
   ],
