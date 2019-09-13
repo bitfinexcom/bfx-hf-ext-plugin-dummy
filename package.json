@@ -1,10 +1,41 @@
 {
   "name": "bfx-hf-ext-plugin-dummy",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Blank DB plugin for the Honey Framework",
   "license": "Apache-2.0",
+  "author": "Bitfinex",
   "contributors": [
-    "Cris Mihalache <me@f3rno.com>"
+    "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
+    "Paolo Ardoino <paolo@bitfinex.com> (https://www.bitfinex.com)",
+    "Jacob Plaster <jacob.plaster@bitfinex.com> (https://www.bitfinex.com)"
   ],
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfinexcom/bfx-hf-ext-plugin-dummy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/bfx-hf-ext-plugin-dummy/issues"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "NODE_ENV=test istanbul cover _mocha -- -R spec -b --recursive",
+    "test-without-coverage": "NODE_ENV=test mocha -R spec -b --recursive"
+  },
+  "keywords": [
+    "honey framework",
+    "bitfinex",
+    "bitcoin",
+    "BTC"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bfx-hf-models": "^2.1.0",
+    "bfx-hf-models-adapter-lowdb": "^1.0.0",
+    "chai": "^4.2.0",
+    "debug": "^4.1.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0",
+    "standard": "^14.2.0"
+  }
 }
