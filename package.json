@@ -5,7 +5,9 @@
   "license": "Apache-2.0",
   "author": "Bitfinex",
   "contributors": [
-    "Cris Mihalache <me@f3rno.com>"
+    "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
+    "Paolo Ardoino <paolo@bitfinex.com> (https://www.bitfinex.com)",
+    "Jacob Plaster <jacob.plaster@bitfinex.com> (https://www.bitfinex.com)"
   ],
   "dependencies": {}
 }
