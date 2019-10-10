@@ -30,8 +30,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "bfx-hf-models": "git+http://github.com/bitfinexcom/bfx-hf-models.git#semver:^2.1.0",
-    "bfx-hf-models-adapter-lowdb": "git+http://github.com/bitfinexcom/bfx-hf-models-adapter-lowdb.git#semver:^1.0.0",
+    "bfx-hf-models": "^2.1.0",
+    "bfx-hf-models-adapter-lowdb": "^1.0.0",
     "chai": "^4.2.0",
     "debug": "^4.1.1",
     "istanbul": "^0.4.5",
