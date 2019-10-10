@@ -13,7 +13,7 @@ npm i --save bfx-hf-ext-plugin-dummy
 
 ### Docs
 
-See `examples/basic_hf_db.js` to get a `bfx-hf-models` instance running with no exchange-specific methods.
+[See `examples/basic_hf_db.js`](/examples/basic_hf_db.js) to get a `bfx-hf-models` instance running with no exchange-specific methods.
 
 ### Contributing
 
