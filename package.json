@@ -4,6 +4,7 @@
   "description": "Blank DB plugin for the Honey Framework",
   "license": "Apache-2.0",
   "author": "Bitfinex",
+  "main": "index.js",
   "contributors": [
     "Cris Mihalache <cris.m@bitfinex.com> (https://www.bitfinex.com)",
     "Paolo Ardoino <paolo@bitfinex.com> (https://www.bitfinex.com)",
@@ -34,7 +35,9 @@
     "bfx-hf-models-adapter-lowdb": "^1.0.0",
     "chai": "^4.2.0",
     "debug": "^4.1.1",
+    "docdash": "^1.2.0",
     "istanbul": "^0.4.5",
+    "jsdoc": "^3.6.4",
     "mocha": "^6.2.0",
     "standard": "^14.2.0"
   }
