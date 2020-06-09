@@ -14,3 +14,5 @@ _test.js
 _test_candle_data.json
 !./db.keep
 /db/*.json
+tags
+.nyc_output
