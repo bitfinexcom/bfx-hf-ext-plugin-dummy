@@ -1,6 +1,6 @@
 {
   "name": "bfx-hf-ext-plugin-dummy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Blank DB plugin for the Honey Framework",
   "license": "Apache-2.0",
   "author": "Bitfinex",
